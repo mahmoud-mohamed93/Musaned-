@@ -1,0 +1,269 @@
+.musaned .intro {
+  text-align: center;
+}.musaned .intro img {
+  height: 120px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.musaned .intro h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #58ABC8;
+}
+.musaned .intro p {
+  color: #777;
+  line-height: 30px;
+  width: 80%;
+  margin: auto;
+}
+
+.musanedFeatures {
+  background-color: #58ABC8;
+}
+.musanedFeatures .musanedServices {
+  text-align: center;
+}
+.musanedFeatures .musanedServices .headTitle h2 {
+  font-size: 36px !important;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  color: #fff;
+}
+.musanedFeatures .musanedServices .headTitle p {
+  color: #eee;
+  margin-bottom: 40px;
+}
+.musanedFeatures .musanedServices a  {
+  overflow: hidden;
+
+  position: relative;
+}
+.musanedFeatures .musanedServices a img {
+  width: 40%;
+}
+.modal-dialog {
+  max-width: 70%;
+}
+.modal-content {
+  border: 0;
+}
+.modal-content iframe {
+  min-height: 500px;
+}
+
+/* Start feature section */
+.Feature {
+  margin-top: 60px;
+  padding-bottom: 60px;
+}
+.Feature .singleFeature {
+  background-color: #fff;
+  padding: 20px 40px!important;
+  margin: 0 10px;
+  border-radius: 5px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+.Feature .singleFeature .info .content .icon {
+  margin: 30px 10px;
+}
+.Feature .singleFeature .info .content .icon i {
+  font-size: 30px;
+  color: #58ABC8;
+  transition: all 0.6s;
+}
+.Feature .singleFeature::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: -100%;
+  top: 0;
+  background-color: #25728e;
+  z-index: -1 ;
+  transition: 0.3s;
+}
+.Feature .singleFeature:hover::after {
+  right: 0;
+  transition: 0.3s;
+}
+.Feature .singleFeature:hover .info .content .icon i {
+  color: #fff;
+  transition: color 0.6s;
+}
+.Feature .singleFeature:hover .info .content h3 {
+  color: #fff;
+  transition: color 0.6s;
+}
+.Feature .singleFeature:hover .info .content p {
+  color: #fff;
+  transition: color 0.6s;
+}
+.Feature .singleFeature .info .content h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: color 0.6s;
+}
+.Feature .singleFeature .info .content p {
+  color: #777;
+  font-size: 16px;
+  line-height: 30px;
+  transition: color 0.6s;
+}
+/* End feature section */
+
+/* Etart musanedRecruitment section */
+.musanedRecruitment {
+  padding: 70px 0;
+}
+.headTitle {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.musanedRecruitment .headTitle h4 {
+  margin-bottom: 10px;
+}
+.musanedRecruitment .headTitle h1 {
+  font-weight: bold;
+  color: #58ABC8;
+}
+.musanedRecruitment .headTitle p {
+  line-height: 30px;
+  margin-top: 30px;
+  color: #777;
+}
+.musanedRecruitment .specifications {
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 4px rgb(0 0 0 / 19%);
+  border-radius: 5px;
+  height: 100%;
+  text-align: center;
+  transition: 0.3s;
+}
+.musanedRecruitment .specifications:hover {
+  background-color: #eee;
+  transition: 0.3s;
+}
+.musanedRecruitment .specifications:hover i {
+  color: #25728e;
+  transition: 0.3s;
+}
+.musanedRecruitment .specifications i {
+  font-size: 55px;
+  margin-bottom: 30px;
+  color: #58ABC8;
+  transition: 0.3s;
+}
+.musanedRecruitment .specifications p {
+  line-height: 30px;
+  margin-top: 30px;
+  color: #777;
+  min-width: 220px;
+}
+/* End musanedRecruitment section */
+
+/* Start musanedFees section */
+.musanedFees {
+  background-color: #58ABC8;
+  padding: 70px 0;
+  text-align: center;
+}
+.musanedFees .headTitle h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+.headTitle h2 {
+  font-size: 36px !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.musanedFees p {
+  color: #eee;
+  line-height: 30px;
+  text-align: center;
+  font-size: 13px !important;
+  margin-bottom: 20px;
+}
+.musanedFees .images img {
+  margin: 20px;
+  max-height: 60px;
+}
+/* End musanedFees section */
+
+/* Start musaned app section */
+.musanedApp {
+  padding: 30px 0;
+}
+.musanedApp .appImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.musanedApp .appImg img {
+  max-width: 45%;
+}
+.musanedApp .info {
+  text-align: center;
+}
+.musanedApp .info img {
+  -o-object-fit: contain;
+  object-fit: contain;
+  height: 120px;
+  margin-bottom: 20px;
+}
+.musanedApp .info h4 {
+  color: #58ABC8;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.musanedApp .info p {
+  color: #777;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.musanedApp .info .links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.musanedApp .info .links img {
+  width: 100%;
+  height: 60px;
+  margin: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+  padding: 5px;
+}
+
+@media (max-width: 1200px) {
+  .musanedApp .appImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.musanedApp .appImg img {
+  max-width: 60%;
+}
+}
+@media (max-width: 992px) {
+  .musanedApp .info .links {
+    flex-wrap: nowrap;
+  }
+  .musanedApp .appImg img {
+  }
+.musanedApp .appImg img {
+  max-width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .musanedApp .appImg {
+    display: none;
+  }
+}
+/* End musaned app section */
